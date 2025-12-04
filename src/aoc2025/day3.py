@@ -25,7 +25,7 @@ def part_two(lines: list[str]):
     return sum(joltage(bank, 12) for bank in lines)
 
 
-def joltage(bank: str, length: int = 2, acc: list[str] = []):
+def joltage(bank: str, length: int = 2):
     bank_len = len(bank)
     parts = []
 
